@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": "EmailMessage",
+  "description": "Your Product Carousel",
+  "potentialAction": {
+    "@type": "ViewAction",
+    "url": "https://www.snusbolaget.se/zyn/",
+    "target": "https://www.snusbolaget.se/zyn/",
+    "name": "View Product Carousel"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Your Company"
+  },
+  "promotion": {
+    "@type": "ItemList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "PromotionCard",
+          "image": "https://d3k81ch9hvuctc.cloudfront.net/company/SPegXf/images/61876002-8989-424e-a0d1-4a83b3eda449.jpeg",
+          "url": "https://www.snusbolaget.se/zyn/",
+          "headline": "Zyn New Feel",
+          "priceCurrency": "SEK",
+          "price": "29.99",
+          "discountValue": "35.90"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "PromotionCard",
+          "image": "https://d3k81ch9hvuctc.cloudfront.net/company/SPegXf/images/14e269a0-be34-46cd-8de3-5e441eef9a94.png",
+          "url": "https://www.snusbolaget.se/xqs/",
+          "headline": "Favoriter från XQS",
+          "priceCurrency": "SEK",
+          "price": "29.90",
+          "discountValue": "41.99"
+        }
+      }
+    ]
+  }
+}
